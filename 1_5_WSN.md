@@ -1,21 +1,24 @@
 # WSN
 Wireless Sensor Network  
-Collection of spatially distributed autonomous sensors   
-that monitor physical or environmental conditions (like temperature, sound, pressure, etc.) and  
-communicate wirelessly to send the collected data to a central system.
+*Collection of spatially distributed autonomous sensors   
+that monitor physical or environmental conditions (like temperature, sound, pressure, etc.) and send the collected data to a central system.*
+
+Consisits of nodes, where each node consists a sensor
+
+Topology can vary from simple to advanced multi hop
 
 ### Key Components of WSN
+![alt text](image-14.png)
 1. Sensor Nodes (Motes)  
 Detect environmental changes.  
-Contain a sensor, microcontroller, transceiver, and battery.
 
-2. Sink (Base Station/Gateway)  
+1. Sink (Base Station/Gateway)  
 Collects data from sensor nodes and sends to a server or cloud.
 
-3. Communication Network  
+1. Communication Network  
 Typically wireless (ZigBee, LoRa, Wi-Fi, Bluetooth, etc.)
 
-4. Power Source  
+1. Power Source  
 Mostly battery-powered; energy efficiency is critical.
 
 ---

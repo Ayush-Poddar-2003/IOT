@@ -1,5 +1,7 @@
 # IOT VS M2M
 
+![alt text](image-15.png)
+
 | Feature               | **M2M**                                 | **IoT**                                                |
 | --------------------- | --------------------------------------- | ------------------------------------------------------ |
 | **Scope**            | Device-to-device communication          | System of interconnected smart devices                 |

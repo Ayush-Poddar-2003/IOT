@@ -1,6 +1,8 @@
+# IOT VS M2M
+
 | Feature               | **M2M**                                 | **IoT**                                                |
 | --------------------- | --------------------------------------- | ------------------------------------------------------ |
-| **Scope**             | Device-to-device communication          | System of interconnected smart devices                 |
+| **Scope**            | Device-to-device communication          | System of interconnected smart devices                 |
 | **Network Type**      | Point-to-point (often private networks) | Internet-based, cloud-connected networks               |
 | **Technology**        | Cellular, wired (Ethernet), SMS         | Wi-Fi, Bluetooth, Zigbee, LoRa, cloud platforms        |
 | **Data Handling**     | Local, basic data exchange              | Cloud storage, real-time data processing and analytics |

@@ -12,7 +12,7 @@ Software implementations of network functions.
 Example: A firewall running as a software app on a VM.
 
 1. NFV Infrastructure (NFVI)   
-The hardware (servers, storage, network) and virtualization layer (e.g., hypervisor).  
+The hardware (servers, storage, network) and virtualization layer (e.g., hypervisor) where vnf is deployed  
 Provides resources to host the virtual functions.
 
 
@@ -27,10 +27,12 @@ Handles lifecycle, scaling, fault recovery.
 ✅ Easy to update or patch software functions  
 ✅ Centralized control and automation (when used with SDN)
 
+# <CENTER>SDN VS NFV
 
 | Feature        | SDN                                   | NFV                                     |
 | -------------- | ------------------------------------- | --------------------------------------- |
 | Focus          | Separation of control and data planes | Virtualization of network functions     |
-| Goal           | Programmability & control             | Hardware independence & service agility |
+| Focus          | On data centers   | Service providers     |
 | Core Component | SDN Controller                        | Virtual Network Functions (VNFs)        |
-| Use With       | Physical and virtual networks         | Mostly with virtualized infrastructure  |
+| Protocol | Uses Openflow communication protocol | No       |
+| Functionality | Reduces cost | Increases scalability       |

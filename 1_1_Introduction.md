@@ -21,11 +21,19 @@ Dynamic Self Adapting, Intelligence, Connectivity, Enormous Scaling, Hetrogeneit
 
 ---
 ### **LEVELS ?**  
-1. **Device Level**  
-Foundation, involves sensors, actuators
-2. **Connectivity Level**  
-How devices communicate with each other using protocols like Wifi, Bluetooth etc
-3. **Data Processing Level**  
-Processing raw data into a usable format
-4. **Application Level**  
-Processed data is used to create applications
+| **Layer**                | **Function**                                          | **Examples**                                 |
+| ------------------------ | ----------------------------------------------------- | -------------------------------------------- |
+| **1. Perception Layer**  | Sensing the environment; collects data                | Sensors, RFID, cameras, GPS                  |
+| **2. Network Layer**     | Transmits data to other devices/cloud                 | Wi-Fi, 4G/5G, ZigBee, Bluetooth              |
+| **3. Middleware Layer**  | Processes and stores data; ensures service management | Cloud platforms (AWS IoT, Azure), databases  |
+| **4. Application Layer** | Provides services to users based on processed data    | Smart home apps, healthcare monitoring       |
+| **5. Business Layer**    | Analyzes data and manages business models             | Dashboards, analytics, decision-making tools |
+
+
+### TEMPLATE 
+
+| **Level**   | **Name**              | **Details**                                                       |
+| ----------- | --------------------- | ----------------------------------------------------------------- |
+| **Level 1** | **Perception Level**  | Physical layer; includes sensors, devices, actuators              |
+| **Level 2** | **Network Level**     | Communication technologies to connect devices to cloud or servers |
+| **Level 3** | **Application Level** | Interfaces, services, and applications for end users              |

@@ -2,8 +2,8 @@
 
 Credit card size computer  
 Small, low-cost, single-board computer developed by the Raspberry Pi Foundation.  
-Runs a Linux-based operating system, typically Raspberry Pi OS (formerly Raspbian).  
-Latest : Raspberry Pi 4  
+It was created to promote the teaching of basic computer science in schools and developing countries, but its use has expanded to IoT, automation, robotics, and even industrial applications.  
+
 
 ![alt text](image-5.png)
 
